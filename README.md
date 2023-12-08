@@ -1,3 +1,26 @@
+# Outline
+## Introduction
+## Distribution and cleaning
+- TMDB vote count needs to remove movies with vote_count less than some value.
+- something with cofidence intervals maybe
+- maybe:(revenue, log)
+## Attributes' effect on revenue/rating
+### Original language
+- try with English, probably conclude that english is the most sought after in terms of revenue/rating.
+- do it without english
+### Genres
+- find top 10/20
+- rød tråd to NLP
+## NLP
+### CLustering
+- Take each cluster assign it a genre
+- compare some stuff
+### Sentiment analysis
+- See if the sentiment has any effect on revenue/rating
+
+# Conclusion
+
+
 # ADA Template Website
 ## Usage
 1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
