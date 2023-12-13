@@ -1,7 +1,9 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/cayman@v0.2.0
 title: ADA ByggeMandBob
 description: CMU Movie dataset
 show_downloads: True
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 navigation:
   - title: Home
     url: /
@@ -12,7 +14,7 @@ navigation:
   - title: How does actor gender influence box office revenue?
     url: pages/gender
   - title: How does the movies original language affect the revenue and rating?
-    url: original_language
+    url: pages/original_language
   - title: Genres
     url: pages/genres
   - title: Natural Language Processing - a possible solution?
