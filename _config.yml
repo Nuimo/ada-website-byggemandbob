@@ -5,6 +5,7 @@ show_downloads: True
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 header: /assets/img/header.png
+baseurl: ""
 navigation:
   - title: Home
     url: /
