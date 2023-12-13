@@ -6,23 +6,23 @@ navigation:
   - title: Home
     url: /
   - title: Introduction
-    url: introduction
+    url: pages/introduction
   - title: Distribution and cleaning
-    url: dist_and_clean
+    url: pages/dist_and_clean
   - title: How does actor gender influence box office revenue?
-    url: gender
+    url: pages/gender
   - title: How does the movies original language affect the revenue and rating?
     url: original_language
   - title: Genres
-    url: genres
+    url: pages/genres
   - title: Natural Language Processing - a possible solution?
-    url: NLP_clustering
+    url: pages/NLP_clustering
   - title: Bag of words
-    url: NLP_bagofwords
+    url: pages/NLP_bagofwords
   - title: Using word2vec instead of bag of words
-    url: NLP_word2vec
+    url: pages/NLP_word2vec
   - title: How does the movies sentiment play in?
-    url: NLP_sentiment
+    url: pages/NLP_sentiment
   - title: Conclusion
     url: pages/conclusion
 
