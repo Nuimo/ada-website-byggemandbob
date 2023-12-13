@@ -1,24 +1,6 @@
 ---
 layout: default
-execute:
-  echo: FALSE
 ---
-
-```{python, echo=FALSE}
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy import stats
-import seaborn as sns
-import statsmodels.api as sm
-import warnings
-warnings.filterwarnings('ignore')
-```
-
-```{python, echo=FALSE}
-movie_metadata = pd.read_csv('../data_cleaned/movie_cleaned.csv', lineterminator='\n')
-character_metadata = pd.read_csv('../data_cleaned/character_cleaned.csv')
-```
 
 # Data cleaning
 
@@ -33,27 +15,7 @@ Let's first take a look at out variable of intereset: **Movie box office revenue
 <mark>er det overhovedet relevant?</mark>
 
 
-```{python, echo=FALSE}
-box_office_variables = ['Movie box office revenue', 'log Movie box office revenue']
-
-fig, axes = plt.subplots(1, 2, figsize=(8, 5))
-
-# Create histograms for each variable in each subplot
-for i, variable in enumerate(box_office_variables):
-    ax = axes[i]
-
-    # Create histograms for female and male characters for the current variable
-    sns.histplot(data=movie_metadata, x=variable, ax=ax, bins=20)
-
-    ax.set_xlabel(variable)
-    ax.set_ylabel('Frequency')
-    ax.set_title(variable)
-
-# Adjust the layout to prevent overlapping
-plt.tight_layout()
-plt.show()
-```
-
+![Movie box office revenue before and after log transformation](figures/dist_and_clean/log_movie_box_revenue)
 
 
 ### Distribution
