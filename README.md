@@ -18,12 +18,12 @@
 ### CLustering
 - Take each cluster assign it a genre
 - compare some stuff
-## Bag-of-words 
-## Word2Vec
+### Bag-of-words 
+### Word2Vec
 ### Sentiment analysis
 - See if the sentiment has any effect on revenue/rating
 
-# Conclusion
+## Conclusion
 
 
 # ADA Template Website
