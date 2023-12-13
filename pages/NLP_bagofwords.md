@@ -21,3 +21,4 @@ layout: default
 - perhaps a 3x2 of the movie posters from chatGPT.
 - wordcloud next to generate movie poster image.
 
+- (maybe make a combination, which movie should you make to have a high revenue and rating)
