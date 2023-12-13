@@ -15,7 +15,7 @@ Let's first take a look at out variable of intereset: **Movie box office revenue
 <mark>er det overhovedet relevant?</mark>
 
 
-![Movie box office revenue before and after log transformation](../figures/dist_and_clean/log_movie_box_revenue.png)
+![Movie box office revenue before and after log transformation](figures/dist_and_clean/log_movie_box_revenue.png)
 
 
 ### Distribution
