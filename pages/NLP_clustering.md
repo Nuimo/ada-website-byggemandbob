@@ -1,9 +1,5 @@
----
-layout: default
----
 # Natural Language Processing - a possible solution?
-- Since the dataset provided us with plot summaries for x movies, we will use those to cluster the movies into different clusters and maybe correlate the plots with the revenue and rating.
-- Genres capture only a small part of the movie, whereas the plot summaries are much more extensive.
+We have explored genres impact on revenue and rating, but as the genres only capture a small part of the movie, we are going to use the plot summaries provided in the dataset. We will now go ahead and use the plot summaries to divide the movies into different clusters and try to find some correlation between the plot of the movies and the revenue and rating.
 
 
 
