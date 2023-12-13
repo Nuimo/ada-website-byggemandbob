@@ -23,12 +23,9 @@ After removing outliers, the distribution are as shown below.
 ![Character meta dataset before cleaning](../figures/dist_and_clean/after_cleaning_movie.png)
 
 
-
 ## How has movie revenue developed over time?
 
-Let's first take a look at out variable of intereset: **Movie box office revenue**. The left plot below shows, that very few movies have a very high revenue - and a lot of movie have a much lower revenue. This is called a **power law**, and to fix this, we log-transform this variable.
-
-<mark>er det overhovedet relevant?</mark>
+Let's first take a look at out variable of interest: **Movie box office revenue**. The left plot below shows, that very few movies have a very high revenue - and a lot of movie have a much lower revenue.
 
 
 ![Movie box office revenue before and after log transformation](../figures/dist_and_clean/log_movie_box_revenue.png)
