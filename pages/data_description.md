@@ -16,8 +16,6 @@ Importantly we are only going to mention the significant ones and the ones that 
 
 ### All Dataset Columns
 <details markdown="1">
-    <summary id="more-info"><i>Click me for more information on the rest of the columns in the dataset</i></summary>
-
 
 | Column Name                                  | Data Type | Description                                        |
 |----------------------------------------------|-----------|----------------------------------------------------|
