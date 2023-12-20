@@ -23,5 +23,7 @@ The plots reveal that the confidence intervals for several of the clusters do no
 ![Average rating and revenue for each cluster](figures/nlp/nlp_rev_rating_both_plots.png){:width="65%"}
 
 To get a more clear picture of what plot summaries yield a high rating and revenue, we have chosen the top 3 and bottom 3 movies for both rating and revenue. We then had ChatGPT-4 <mark>reference</mark> create a movie poster for the top and bottom clusters based on their most significant words. This visualization helps us to understand what kind of movies get a high rating and revenue, and which movies fail to do so.
-
-<mark>indsæt movie posters</mark>
+![Average rating and revenue for each cluster](figures/nlp/best_rev_final.png){:width="65%"}
+![Average rating and revenue for each cluster](figures/nlp/worst_rev_final.png){:width="65%"}
+![Average rating and revenue for each cluster](figures/nlp/best_rating_final.png){:width="65%"}
+![Average rating and revenue for each cluster](figures/nlp/worst_rating_final.png){:width="65%"}
