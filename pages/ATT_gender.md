@@ -14,11 +14,11 @@ With a p-value of 0.10 of the linear regression, there has been no significant c
 ![Development of percentage of female actors over time](figures/gender/female_percentage_release_year_filtered.png){:width="65%"}
 
 
-With a p-value of 0.00 of the linear regression bt, there is has been a significant increase in female actors in the past century. But does gender even effect the box office revenue of the movie?
+With a p-value of 0.00 of the linear regression bt, there is has been a significant increase in female actors in the past century. But does gender even effect the box office revenue and rating of the movie?
 
-![Movie box office revenue given as a function of percentage of female actor in a given movie](figures/gender/female_percentage_revenue.png){:width="65%"}
+![Movie box office revenue given as a function of percentage of female actor in a given movie](figures/gender/female_percentage_rev_rating.png){:width="65%"}
 
-With a p-value of 0.00, the linear regression above shows, that there is a significant decrease in the box office revenue for a movie, if there are more female actors. But is it really because people do not want to see females on screen, or could there be another explanation?
+With a p-value of 0.00, the linear regression for revenue shows, that there is a significant decrease in the box office revenue for a movie, if there are more female actors. However, there is no significant effect on rating, with a p-value of 0.06.
 
 ### Difference between male and female actors
 
@@ -26,4 +26,4 @@ We divide the character dataset into male and female character dataset. Looking 
 
 ![Male and female distribution](figures/gender/gender_age.png){:width="50%"}
 
-The plot shows us, that there is a significant difference in the age of male and female actors. It indicates, that female actors generally are younger than male actors in movies.
+The plot shows us, that there is a significant difference in the age of male and female actors. It indicates, that female actors generally are younger than male actors in movies. 

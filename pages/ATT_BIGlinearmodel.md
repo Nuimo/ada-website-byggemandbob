@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Connecting the dots - can we make one big linear model? 
+=======
+## Big linear model
+>>>>>>> 77c2e4d8a5d82b9e9363ae4934055cedb88a0adf
 We now want to investigate how the different attributes in our dataset contribute to a high revenue and rating.
 
 We do this by creating two linear regression model predicting revenue and rating based on basic attributes of the movies. We were able to include the following numerical attributes in our models: Movie runtime, Movie release year, Vote count, Male actor percentage, and Mean actor age. We did this in order to only include relevant predictor variables. 
@@ -37,6 +41,6 @@ Finally, we can conclude that categorical variables of the 10 most evident genre
 
 
 #### How can we move to better models?
-The attributes associated with our dataset do not explain a large percentage of the variance or our data. A reason that this somewhat simple linear regression cannot easily predict movie succes in terms of revenue or rating could be because these models only provide general information about the movies and not specific details of the storyline of the movies. We therefore want investigate whether knowing the specific storyline of each movie can help us in predicting movie succes. As plot summaries are more complex and contain more specific details about the movies we can maybe extract more distinct features from our dataset. This leads us to the next part of our analysis where we will try to cluster movies into distinct categories based on the Wikipedia description of their plot the socalled movie plot summaries. 
+The attributes associated with our dataset do not explain a large percentage of the variance or our data. A reason that this somewhat simple linear regression cannot easily predict movie success in terms of revenue or rating could be because these models only provide general information about the movies and not specific details of the storyline of the movies. We therefore want investigate whether knowing the specific storyline of each movie can help us in predicting movie success. As plot summaries are more complex and contain more specific details about the movies we can maybe extract more distinct features from our dataset. This leads us to the next part of our analysis where we will try to cluster movies into distinct categories based on the Wikipedia description of their plot the so-called movie plot summaries. 
 
 
