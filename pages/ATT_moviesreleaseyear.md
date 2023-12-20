@@ -1,4 +1,4 @@
-## Is release year magic key?
+## Is release year the magic key?
 Let's now take a look at the release year and how it might be able to help us! 
 
 ![Movie Release Year and Revenue and Rating](figures/Movie_release_year/Movie_release_year_scatterplot.png){:width="80%"}
