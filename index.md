@@ -11,7 +11,11 @@ title: "Maximizing Box-Office Revenue and Rankings: Crafting the Perfect Movie F
 {% include_relative pages/dist_and_clean.md %}
 
 {% include_relative pages/ATT_intro.md %}
+
+{% comment %}
 {% include_relative pages/ATT_gender.md %}
+{% endcomment %}
+
 {% include_relative pages/ATT_originallanguage.md %}
 {% include_relative pages/ATT_genres.md %}
 {% include_relative pages/ATT_moviesreleaseyear.md %}
