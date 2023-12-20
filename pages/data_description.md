@@ -18,6 +18,8 @@ Importantly we are only going to mention the significant ones and the ones that 
 <details>
   <summary>Click me for more information on the rest of the columns in the dataset</summary>
 
+
+
 | Column Name                                  | Data Type | Description                                        |
 |----------------------------------------------|-----------|----------------------------------------------------|
 | Wikipedia Movie ID                           | Integer   | Wikipedia's unique identifier for the movie        |
@@ -48,6 +50,8 @@ Importantly we are only going to mention the significant ones and the ones that 
 | Mean_actor_age_at_movie_release              | Float     | Average age of actors at the time of movie release |
 | balanced Movie box office revenue            | Float     | Balanced box office revenue of the movie           |
 | log balanced Movie box office revenue        | Float     | Logarithm of balanced box office revenue           |
+
+
 
 </details>
 
