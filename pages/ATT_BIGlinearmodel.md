@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 ## Connecting the dots - can we make one big linear model? 
-=======
-## Big linear model
->>>>>>> 77c2e4d8a5d82b9e9363ae4934055cedb88a0adf
+
 We now want to investigate how the different attributes in our dataset contribute to a high revenue and rating.
 
 We do this by creating two linear regression model predicting revenue and rating based on basic attributes of the movies. We were able to include the following numerical attributes in our models: Movie runtime, Movie release year, Vote count, Male actor percentage, and Mean actor age. We did this in order to only include relevant predictor variables. 
@@ -29,11 +26,11 @@ The R-squared value is around 0.4-0.45 for both models which means that not a lo
 #### Can we still draw some insights from this model?
 Even though the overall fit of our model is not great we can still look at which variables shows the highest impact on our target variables. The coefficient plots below show the significant coefficients in our two models sorted after coefficient value.  Variables with bars extending right have a positive effect, while those extending left have a negative effect on average ratings. The length of each bar indicates the strength of the variable's impact within a statistical significance of p-value < 0.05.
 
-![Coefficient_rating_mode](figures/Big_linear_model/Coefficient_rating_model.png){:width="80%"}
+![Coefficient_rating_mode](figures/Big_linear_model/Coefficients_rating_model.png){:width="80%"}
 
 The plot above shows the coefficients for the linear regression model on movie ratings. We can see that certain genres such as Family and Action positively influence ratings. The same is evident for certain production countries and languages.
 
-![coefficient_revenue_model](figures/Big_linear_model/Coefficient_revenue_model.png){:width="80%"}
+![coefficient_revenue_model](figures/Big_linear_model/Coefficients_revenue_model.png){:width="80%"}
 
 The revenue coefficient plot above has a number of positive coefficients.  The top 10 genre's or country's positively impact revenue. Family films and movies from the United States show the strongest positive relationships. In contrast, South Korean productions and the Adventure genre show a negative correlation with revenue. Non-categorical variables like 'log_TMDB_vote_count' significantly influence revenue, indicating a robust relationship between a film's popularity and its financial success.
 
