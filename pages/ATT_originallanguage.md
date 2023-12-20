@@ -1,6 +1,6 @@
 ## How about the original language of a movie?
 
-It comes as no surprise, that most movies are in English. But does that mean the movie will get a higher revenue or rating? We divide the the dataset into movie with English as the original language, and movies with non-English as the original language.
+It comes as no surprise, that most movies are in English. But does that mean the movie will get a higher revenue or rating? We divide the dataset into movies with English as the original language, and movies that have non-English as the original language.
 
 When performing linear regression, we see that both revenue and rating has a significant effect - but in the opposite direction!
 

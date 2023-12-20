@@ -1,7 +1,9 @@
 ## Dataset description
-Before starting to analyse the data, it is important to actually understand what each column name represents and what the importance of it is. Here we are going to create a table that gives a nice overview of the different columns name.
+First of all the dataset we are using is the 
+CMU Movie Summary Corpus and TMDB.
+Secondly, before starting to analyse the data, it is important to actually understand what each column name represents and what the importance of it is. Here we are going to create a table that gives a nice overview of the different columns name.
 
-Importantly we are only going to mention the significant ones and the ones that need some explanation - the full list can be found below by toggling the collapsible section.
+Importantly we are only going to mention the significant ones and the ones that need some explanation - the full list can be found below by toggling the collapsible section "Details".
 
 | Column Name                                  | Data Type | Description                                        |
 |----------------------------------------------|-----------|----------------------------------------------------|
@@ -52,5 +54,5 @@ Importantly we are only going to mention the significant ones and the ones that 
 </details>
 
 
-Taking a first look at the data set, we see that only around 10% of the movies have a box office revenue entry. Therefore we enrich the data set with TMDB data (<mark>kilde</mark>). The TMDB data gives us new attributes like revenue, original movie language and movie ranking, that might be interesting for out analysis. After enriching the data, <mark>12</mark>% of the movies have a box office revenue entry.
+Taking a first look at the data set, we see that only around 10% of the movies have a box office revenue entry. Therefore, we enrich the data set with TMDB data  ([TMDB](https://www.themoviedb.org)). The TMDB data gives us new attributes like revenue, original movie language and movie rating, that might be interesting for our analysis. After enriching the data, 12% of the movies now have a box office revenue entry.
 
