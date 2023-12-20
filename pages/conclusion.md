@@ -1,8 +1,12 @@
 # Now - How to create the perfect movie?
 
-Two things to think about: Do you want to make a movie that has a high revenue, gets a high rating, or perhaps the golden combination, both?
-To create a movie with a high revenue you need to focus on these key aspects:
+Two things to think about: Do you want to make a movie that has a **high revenue** or a **high rating** - or perhaps the golden middle ground?
+
+Based on our analysis, to create a movie with **high revenue** you need to focus on these key aspects:
+- English original language
+- A <mark>runtime?</mark>
 - alien bla. bla.
+
 
 To create a movie with a high rating, these are your focus points!
 - women
