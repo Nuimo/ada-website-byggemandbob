@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 ## Connecting the dots - can we make one big linear model? 
-=======
-## Big linear model
->>>>>>> 77c2e4d8a5d82b9e9363ae4934055cedb88a0adf
+
+
 We now want to investigate how the different attributes in our dataset contribute to a high revenue and rating.
 
 We do this by creating two linear regression model predicting revenue and rating based on basic attributes of the movies. We were able to include the following numerical attributes in our models: Movie runtime, Movie release year, Vote count, Male actor percentage, and Mean actor age. We did this in order to only include relevant predictor variables. 
