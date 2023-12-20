@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## How does gender representation influence movie revenue?
 
 Let first take a look at the representation of male and female actors in movies over time.
