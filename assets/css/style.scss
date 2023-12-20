@@ -6,13 +6,13 @@
   /* White text color for better contrast */
   color: white;
   /* Text shadow for better legibility over the background */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  text-shadow: 0px 0px 50px #000,0px 0px 50px #000,0px 0px 50px #000;
 }
 .project-tagline {
   font-weight: 700;
   color: white;
-  /*! opacity: 1; */
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  opacity: 1;
+  text-shadow: 0px 0px 25px #000,0px 0px 25px #000,0px 0px 25px #000, 0px 0px 25px #000;
 
 
 }
@@ -47,4 +47,9 @@
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color:#29293f;
   font-weight: bold;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
