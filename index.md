@@ -20,15 +20,6 @@ title: ByggemandBob
 {% include_relative pages/ATT_actorage.md %}
 {% include_relative pages/ATT_BIGlinearmodel.md %}
 
-{% include_relative pages/gender.md %}
-
-
-{% include_relative pages/original_language.md %}
-
-
-{% include_relative pages/genres.md %}
-
-
 {% include_relative pages/NLP_clustering.md %}
 
 
