@@ -1,9 +1,5 @@
 # Data cleaning
 
-Taking a first look at the data set, we see that only around 10% of the movies have a box office revenue entry. Therefore we enrich the data set with TMDB data (<mark>kilde</mark>). The TMDB data gives us new attributes like revenue, original movie language and movie ranking, that might be interesting for out analysis. After enriching the data, <mark>12</mark>% of the movies have a box office revenue entry.
-
-## Distribution of data
-
 Before diving into the data, it needs to be cleaned. Some of the movies have a runtime of 10 hours, or an actor with the height of 3 meters. All of these unrealistic attributes is removed, before continuing with the data. After removing outliers, the distribution are as shown below.
 
 ![Character meta dataset before cleaning](figures/dist_and_clean/after_cleaning_character.png){:width="80%"}

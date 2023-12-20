@@ -1,18 +1,21 @@
 # Now - How to create the perfect movie?
 
-Two things to think about: Do you want to make a movie that has a **high revenue** or a **high rating** - or perhaps the golden middle ground?
+Two things to think about: Do you want to make a movie that has a **high rating** or a **high revenue** - or perhaps the golden middle ground?
 
-Based on our analysis, to create a movie with **high revenue** you need to focus on these key aspects:
+
+Based on our analysis, to create a movie with **high rating** you need to focus on these key aspects:
+- Other language than English
+- One of the following genres:
+    - Love, specifically including a wedding
+    - Sci-fi
+    - Action 
+
+Based on our analysis, to create a movie with **high revenue**, these are the focus points:
 - English original language
-- A <mark>runtime?</mark>
-- alien bla. bla.
-
-
-To create a movie with a high rating, these are your focus points!
-- women
-- love 
-- bla. bla.
-- germany 
+- One of the following topics:
+    - Gangster
+    - Western
+    - War, specifically WW2 movies
 
 Now for the final reveal - a movie which captures both elements, here are the takeaways!
 - about etc.
