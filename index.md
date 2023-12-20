@@ -27,10 +27,8 @@ title: "Maximizing Box-Office Revenue and Rankings: Crafting the Perfect Movie F
 {% include_relative pages/NLP_bagofwords.md %}
 
 
-{% include_relative pages/NLP_word2vec.md %}
 
 
-{% include_relative pages/NLP_sentiment.md %}
 
 
 {% include_relative pages/conclusion.md %}
