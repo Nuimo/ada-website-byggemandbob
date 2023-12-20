@@ -1,4 +1,4 @@
-# Now - How to Create The Perfect Movie?
+# Now - How to create the perfect movie?
 
 Two things to think about: Do you want to make a movie that has a high revenue, gets a high rating, or perhaps the golden combination, both?
 To create a movie with a high revenue you need to focus on these key aspects:
