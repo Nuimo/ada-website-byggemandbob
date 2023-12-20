@@ -50,3 +50,10 @@ Here we find some og the more some of the softer plots. The storylines do not lo
 
 ![Average rating and revenue for each cluster](figures/posters/worst_rev_final.png){:width="100%"}
 
+
+### Combined score - The golden standard 
+![Average rating and revenue for each cluster](figures/nlp/gold_plot.png){:width="100%"}
+
+![Average rating and revenue for each cluster](figures/posters/gold_final.png){:width="100%"}
+
+
