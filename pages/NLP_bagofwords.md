@@ -31,7 +31,7 @@ A classic western is to be found in the second place and in third we see the cri
 ![Average rating and revenue for each cluster](figures/posters/best_rating_final.png){:width="100%"}
 
 ### Lowest Rated Movies - The clusters that reviewers slaughter
-
+In this end of the scale we find the movies that did not to well with reviewers. The worst an third worst rated clusters looks respectively like the classic evil doctor/virus/epidemic turns into monster and the alien invasion movies that we have all seen. These plots might be to for reached to fall into the likes of the typical reviewer. In the second to last place we find movies that semem as if they could be based on video-games. One common view of these movies are that they just do not live up to the expectations of the enthusiastic "gamers". 
 
 ![Average rating and revenue for each cluster](figures/posters/worst_rating_final.png){:width="100%"}
 
