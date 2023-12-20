@@ -1,4 +1,4 @@
-## Big Linear Model
+## Big linear model
 We now want to investigate how the different attributes in our dataset contribute to a high revenue and rating.
 
 We do this by creating two linear regression model predicting revenue and rating based on basic attributes of the movies. We were able to include the following numerical attributes in our models: Movie runtime, Movie release year, Vote count, Male actor percentage, and Mean actor age. We did this in order to only include relevant predictor variables. 
@@ -20,13 +20,13 @@ Having stated all our independent variables to our models we can now formulate o
 
 **Target variables:** log_revenue for model1 and avg_rating for model 2
 
-The $R^2$ value is around 0.4-0.45 for both models which means that not a lot of variance is explained by our linear regression models. This could indicate that is is not the most fitting model for our data.
+The R-squared value is around 0.4-0.45 for both models which means that not a lot of variance is explained by our linear regression models. This could indicate that is is not the most fitting model for our data.
 
 #### Can we still draw some insights from this model?
 Even though the overall fit of our model is not great we can still look at which variables shows the highest impact on our target variables. The coefficient plots below show the the top 5 strongest positive and negative coefficients for model1 and model2.  
 
 
 #### How can we move to better models?
-The attributes associated with our dataset do not explain a large percentage of the variance or our data. A reason that this somewhat simple linear regression cannot easily predict movie succes in terms of revenue or rating could be because these models only provide general information about the movies and not specific details of the storyline of the movies. We therefore want investigate whether knowing the specific storyline of each movie can help us in predicting movie succes. As plot summaries are more complex and contain more specific details about the movies we can maybe extract more distinct features from our dataset. This leads us to the next part of our analysis where we will try to cluster movies into distinct categories based on the Wikipedia description of their plot the socalled movie plot summaries. 
+The attributes associated with our dataset do not explain a large percentage of the variance or our data. A reason that this somewhat simple linear regression cannot easily predict movie success in terms of revenue or rating could be because these models only provide general information about the movies and not specific details of the storyline of the movies. We therefore want investigate whether knowing the specific storyline of each movie can help us in predicting movie success. As plot summaries are more complex and contain more specific details about the movies we can maybe extract more distinct features from our dataset. This leads us to the next part of our analysis where we will try to cluster movies into distinct categories based on the Wikipedia description of their plot the so-called movie plot summaries. 
 
 

@@ -1,4 +1,4 @@
-## Dataset Description
+## Dataset description
 Before starting to analyse the data, it is important to actually understand what each column name represents and what the importance of it is. 
 Here we are going to create a table that gives a nice overview of the different columns name.
 
