@@ -1,3 +1,3 @@
 # Introduction
 
-**Movie box office revenue** and **TMDB_vote_count**
+In the dynamic world of film, understanding what makes a movie successful is key for filmmakers and studios. Our project, "Maximizing Box-Office Revenue and Rankings: Crafting the Perfect Movie Formula," aims to uncover the secrets behind successful movies. By analyzing data from the CMU Movie Summary Corpus and The Movie Database (TMDB), we use various tools such as linear regression and natural language processing to explore how different factors like genre, plot, and various attributes contribute to a movie's box office and rating success. This research offers insights into the complex blend of elements that resonate with audiences and critics, guiding the future of data-driven filmmaking.
