@@ -13,8 +13,10 @@ categorical variables with multiple values per element: Movie_countries and Movi
 
 Computational expensive: One-hot-encoding for top 10 most occuring values in both variables (maybe visualize with the barplots)
 
-linear regression models with all the same predictor variables but different target variables: revenue and regression
+linear regression models with all the same predictor variables but different target variables as seen below:
 
+
+(har gjort variable navne mere simple, idk hvis vi ska bruge dem fra koden i data storyen?)
 predictor variables: original_language + Movie_runtime + Movie_release_year + log_vote_count + Male_actor_percentage + Mean_actor_age + Movie_countries + Movie_genres
 
 target variables: log_revenue for model1 and avg_rating for model 2
