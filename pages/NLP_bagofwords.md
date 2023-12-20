@@ -37,8 +37,9 @@ In this end of the scale we find the movies that did not to well with reviewers.
 
 ### Highest Grossing Miovies - The clusters that brings back money
 Again not very surprisingly we see here the posters that most of us probably could imagine hanging in front of the cinemas. These are what we can call the blockbusters. You might get the feeling that you have already seen these films from looking at the posters. 
+
 Looking at the highest grossing cluster we recognise the typical action movie, involving some goverment, a range og armed men and lots og explotions. 
-In second place we find our typical sifi films with so kind of threat to the human race, with lots of CGI and some very thin plot about saving the world.   
+In second place we find our typical sifi films with so kind of threat to the human race, with lots of CGI and some very thin plot about saving the world. What is very interesting about this one is that is falls into both the top 3 highest grossing films and in the bottom 3 when looking at ratings. We could imagine this to be caused by an over-promising trailer with high budgets, but not performing when it comes to the quality of the story. 
 In third place it shows that apparently a classic drama surrounding a wedding draws a lot of viewers. 
 
 ![Average rating and revenue for each cluster](figures/posters/best_rev_final.png){:width="100%"}
