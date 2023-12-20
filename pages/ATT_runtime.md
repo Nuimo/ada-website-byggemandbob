@@ -1,5 +1,6 @@
 ## Runtime
 Let's start by taking a look at if movie runtime has any effect on the revenue or rating! 
+
 ![Movie runtime and Log Balanced Movie Box Office Revenue](figures/runtime/movie_runtimeVSlogbalanced_movieboxofficerevenue.png){:width="80%"}
 Looking at the plot above most movies are around 100 minutes and has a revenue of 10^6.
 
