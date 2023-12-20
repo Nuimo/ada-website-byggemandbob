@@ -15,11 +15,14 @@ We also want to add some categorical attributes to our model: Movie country, Mov
 
 Having stated all our independent variables to our models we can now formulate our linear regression models. The two models describing the vote average and revenue have the same predictor variables but different target variables as seen below:
 
-**Predictor variables:** C(Original_language) + Movie_runtime + Movie_release_year + log_vote_count + Male_actor_percentage + Mean_actor_age + C(Movie_countries) + C(Movie_genres)
+**Predictor variables:** 
+C(Original_language) + Movie_runtime + Movie_release_year + log_vote_count + Male_actor_percentage + Mean_actor_age + C(Movie_countries) + C(Movie_genres)
 
-**Target variables:** log_revenue for model1 and avg_rating for model 2
+**Target variables:** 
+Model1: Log_revenue
+Model2: Avg_rating
 
-The R-squared value is around 0.4-0.45 for both models which means that not a lot of variance is explained by our linear regression models. This could indicate that is is not the most fitting model for our data.
+The R-squared value is 0.452 for the revenue model and 0.402 for the average rating model. This means that  approximately 45.2% and 40.2% of the variability in movie revenues and TMDB vote average can be explained by the model's variables. This is a moderate level of explanatory power. The models also have significant F-statistics, indicating that the variables, as a group, have a statistically significant effect on movie revenues.
 
 #### Can we still draw some insights from this model?
 Even though the overall fit of our model is not great we can still look at which variables shows the highest impact on our target variables. The coefficient plots below show the significant coefficients in our two models sorted after coefficient value.  Variables with bars extending right have a positive effect, while those extending left have a negative effect on average ratings. The length of each bar indicates the strength of the variable's impact within a statistical significance of p-value < 0.05.
