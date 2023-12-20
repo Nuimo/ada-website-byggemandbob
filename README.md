@@ -14,6 +14,13 @@
 - find top 10/20
 - Linear regression
 - rød tråd to NLP
+### Movie release year
+### Runtime
+### Vote Count
+### Male actor percentage
+### Actor avg.
+### (Vote avg. vs revenue)
+### BIG linear model combining the prev. attributes
 ## NLP
 ### CLustering
 - Take each cluster assign it a genre
