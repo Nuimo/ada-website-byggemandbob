@@ -1,6 +1,6 @@
 # Data cleaning
 
-Taking a first look at the data set, we see that only around 10% of the movies have a box office revenue entry. Therefore we enrich the data set with TMDB data (<mark>kilde</mark>). The TMDB data gives us new attributes like revenue, original movie language and movie ranking, that might be interesting for out analysis. After enriching the data, <mark>hvor meget??</mark>% of the movies have a box office revenue entry.
+Taking a first look at the data set, we see that only around 10% of the movies have a box office revenue entry. Therefore we enrich the data set with TMDB data (<mark>kilde</mark>). The TMDB data gives us new attributes like revenue, original movie language and movie ranking, that might be interesting for out analysis. After enriching the data, <mark>12</mark>% of the movies have a box office revenue entry.
 
 ## Distribution of data
 
@@ -10,7 +10,7 @@ Before diving into the data, it needs to be cleaned. Some of the movies have a r
 
 ![Character meta dataset before cleaning](figures/dist_and_clean/after_cleaning_movie.png){:width="80%"}
 
-The figures below show the distribution of the numerical variables in the two dataset. Some are the variables also look very heavy-tailed and might need to be transformed. The two attributes **Movie box office revenue** and **TMDB_vote_count** (movie ranking) has a very skewed distribution. Therefore we transform this variable to make it normal distributed, as shown on the right. <mark>er det relevant?</mark>
+The figures below show the distribution of the numerical variables in the two dataset. Some are the variables also look very heavy-tailed and might need to be transformed. The two attributes **Movie box office revenue** and **TMDB_vote_count** (movie ranking) has a very skewed distribution. Therefore we transform this variable to make it normal distributed, as shown on the right.
 
 ![Movie box office revenue and TMDB_vote_count before and after log transformation](figures/dist_and_clean/log_transforms.png){:width="80%"}
 
