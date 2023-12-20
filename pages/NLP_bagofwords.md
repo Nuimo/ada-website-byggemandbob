@@ -24,19 +24,22 @@ The plots reveal that the confidence intervals for several of the clusters do no
 
 To get a more clear picture of what plot summaries yield a high rating and revenue, we have chosen the top 3 and bottom 3 movies for both rating and revenue. We then had ChatGPT-4 <mark>reference</mark> create a movie poster for the top and bottom clusters based on their most significant words. This visualization helps us to understand what kind of movies get a high rating and revenue, and which movies fail to do so.
 
-### Rating Winners - The clusters that yields high quality 
-Maybe not very surprisingly we see here the posters that most of us probably could imagine hanging in front of the cinemas. These are what we can call the blockbusters. You might get the feeling that you have already seen these films from looking at the posters. Looking at the highest grossing cluster we recognise the typical action movie, involving some goverment, a range og armed men and lots og explotions. In second place we find our typical sifi films with so kind of threat to the human race, with lots of CGI and some very thin plot about saving the world.   
+### Top Rated Movies - The clusters that yields high quality 
+Maybe not very surprisingly we see here the posters that most of us probably could imagine hanging in front of the cinemas. These are what we can call the blockbusters. You might get the feeling that you have already seen these films from looking at the posters. 
+Looking at the highest grossing cluster we recognise the typical action movie, involving some goverment, a range og armed men and lots og explotions. 
+In second place we find our typical sifi films with so kind of threat to the human race, with lots of CGI and some very thin plot about saving the world.   
+In third place it shows that apparently a classic drama surrounding a wedding draws a lot of viewers. 
+![Average rating and revenue for each cluster](figures/posters/best_rating_final.png){:width="100%"}
+
+### Lowest Rated Movies - The clusters that reviewers slaughter
+
+![Average rating and revenue for each cluster](figures/posters/worst_rating_final.png){:width="100%"}
+
+### Highest Grossing Miovies - The clusters that brings back money  
 
 ![Average rating and revenue for each cluster](figures/posters/best_rev_final.png){:width="100%"}
 
-### Rating Loosers - The clusters that reviewers slaughter
+### Lowest Grossing Movies - The clusters that makes you poor
 
 ![Average rating and revenue for each cluster](figures/posters/worst_rev_final.png){:width="100%"}
 
-### Revenue Winners - The clusters that brings back money  
-
-![Average rating and revenue for each cluster](figures/posters/best_rating_final.png){:width="100%"}
-
-### Revenue Loosers - The clusters that makes you poor
-
-![Average rating and revenue for each cluster](figures/posters/worst_rating_final.png){:width="100%"}
