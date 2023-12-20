@@ -15,9 +15,8 @@ Importantly we are only going to mention the significant ones and the ones that 
 | Movie box office revenue                     | Float     | Box office revenue of the movie                    |
 
 ### All Dataset Columns
-<details>
-  <summary>Click me for more information on the rest of the columns in the dataset</summary>
-
+<details markdown="1">
+    <summary id="more-info"><i>Click me for more information on the rest of the columns in the dataset</i></summary>
 
 
 | Column Name                                  | Data Type | Description                                        |
