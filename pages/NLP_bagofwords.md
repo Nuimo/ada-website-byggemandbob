@@ -29,17 +29,22 @@ Maybe not very surprisingly we see here the posters that most of us probably cou
 Looking at the highest grossing cluster we recognise the typical action movie, involving some goverment, a range og armed men and lots og explotions. 
 In second place we find our typical sifi films with so kind of threat to the human race, with lots of CGI and some very thin plot about saving the world.   
 In third place it shows that apparently a classic drama surrounding a wedding draws a lot of viewers. 
+
 ![Average rating and revenue for each cluster](figures/posters/best_rating_final.png){:width="100%"}
 
 ### Lowest Rated Movies - The clusters that reviewers slaughter
+Here we find some og the more some of the softer plots. The storylines do not look as obvious as the best performing movies. Though we can still see the general idea from these posters. Interestingly we see a lot of women represented in the posters. The plots seem to revolve around families and and more wholesome plot-lines than the action and "explosive" themes we saw in the top grossing movies.    
 
 ![Average rating and revenue for each cluster](figures/posters/worst_rating_final.png){:width="100%"}
 
 ### Highest Grossing Miovies - The clusters that brings back money  
+Again not so surprising, we find that the top-rated movies looks like classics most could put a real movie title to. At teh very top we find all the war movies which interestingly seem mostly to include movies from World War II. 
+A classic western is to be found in the second place and in third we see the crime-dramas that often relies on heavier and more complex plots.  
 
 ![Average rating and revenue for each cluster](figures/posters/best_rev_final.png){:width="100%"}
 
 ### Lowest Grossing Movies - The clusters that makes you poor
+
 
 ![Average rating and revenue for each cluster](figures/posters/worst_rev_final.png){:width="100%"}
 
