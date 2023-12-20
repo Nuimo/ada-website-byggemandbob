@@ -1,34 +1,27 @@
 ### Bag-of-words | Text Data Magic: From Words to 26 Cool Clusters
 
-In our project, we started with preprocessing, applying stemming, lemmatization, and stopword removal to our text data. Next, we used TF-IDF for text representation. For dimensionality reduction, we aimed for 95% variance retention, leading to component reduction. We then employed K-means clustering, determining the optimal k=30 based on the silhouette score and performance reasons, resulting in 30 clusters. After filtering out clusters with less than 100 samples, we ended up with 26 clusters.
+We decide to cluster the movies based on similarity score between words in the plot summaries. To prepare the plot summaries for analysis, we apply stemming, lemmatization, and stopword removal to our text data. Next, we use TF-IDF for text representation. For dimensionality reduction, we aim for 95% variance retention, leading to component reduction. We then employ K-means clustering, determining the optimal $k=30$ based on the silhouette score and performance reasons, resulting in 30 clusters. After filtering our clusters with a 100 samples or less, we end up with 26 clusters.
 
+The clusters are formed by similarity between words in the movies' plot summaries. Therefore, each cluster contains a list of words ranked from most important to least important. A way to represent the cluster, and what words characterize them, is by the word clouds seen below. Each word in the word cloud is represented in the cluster, and the bigger the word, the more significant it is for that cluster. The plot below shows the word clouds for cluster five to eight.
 
--------
-- preprocessing, stemming, lemmatization, stopword removal, 
-- We then proceeded to use a TF-IDF
-- component reduction, dimensionality reduction, how many components you need, 95%.
-- Kmeans, then proceeded find the optimal k, based on the silhouette score and CPU score, ended with k=30. 30 clusters
-- (above 1 small block)
-- sorted out the cluster with less than 100 samples, we then ended up with 26 clusters.
+![Example of word clouds for cluster 5, 6, 7 and 8](figures/nlp/word_cloud_example.png){:width="65%"}
+
+We see that the four cluster seen here have some clear tendencies as well. Looking at cluster 6 the most significant (biggest) words seem to fall in the same category: alien, ship, kill and earth.
 
 ### Rating & Box Office
-We concluded our analysis with the determination that the average rating was x (as illustrated in the provided image), and the revenue was also distinctly represented in another graph. Together, these two combined formed graph X.
+But let us circle back to our goal of this analysis: to create a movie with **highest possible revenue** and **best possible rating**. Let's see how these plot summaries can help us with that!
 
-Our analysis revealed that the confidence intervals for the clusters did not overlap, indicating a statistically significant difference in both revenues and ratings among the clusters.
+Each cluster contains a number of movie, each with a given revenue and rating. To check if there is a significance difference between revenue and rating in the cluster, we take a randomly choose 100 movies from each cluster and calculate the mean revenue and rating. We do this 100 times and calculate the average of all the means from all the sample.
 
-Further, we focused on identifying the top three and bottom three clusters. For each of these six clusters, we created word clouds to visually represent the most frequent and significant terms associated with them. Additionally, we envisioned a 3x2 layout showcasing ChatGPT-generated movie posters, each corresponding to a specific cluster. This layout places each word cloud next to its related movie poster, providing creative and also quite fun textual and visual data representations.
+The average mean of each cluster for both rating revenue is plotted below with error bars indicating the 95% confidence interval.
+
+![Average rating and revenue for each cluster](figures/nlp/nlp_rev_rating_subplots.png){:width="65%"}
 
 
--------
-- We ended up with the rating being x (IMG)
-- and the revenue being (IMG)
-- together they form X.
+The plots reveal that the confidence intervals for several of the clusters do not overlap, indicating a statistically significant difference in both revenues and ratings among the clusters. In the plot above, the cluster have been arranged in increasing order of both rating and revenue. However, if we arrange the cluster only with increasing revenue, we see that the two attributes don't go hand in hand. Actually, one of the movies with highest revenue has the worst ratings (cluster 18).
 
-- Confidence intervals don't overlap it is clear that the clusters have significantly different revenues and ratings.
+![Average rating and revenue for each cluster](figures/nlp/nlp_rev_rating_both_plots.png){:width="65%"}
 
-- We then take a look at the three best, three worst, 
-- wordclouds
-- perhaps a 3x2 of the movie posters from chatGPT.
-- wordcloud next to generate movie poster image.
+To get a more clear picture of what plot summaries yield a high rating and revenue, we have chosen the top 3 and bottom 3 movies for both rating and revenue. We then had ChatGPT-4 <mark>reference</mark> create a movie poster for the top and bottom clusters based on their most significant words. This visualization helps us to understand what kind of movies get a high rating and revenue, and which movies fail to do so.
 
-- (maybe make a combination, which movie should you make to have a high revenue and rating)
+<mark>indsæt movie posters</mark>
