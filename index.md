@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ByggemandBob
+title: "Maximizing Box-Office Revenue and Rankings: Crafting the Perfect Movie Formula"
 ---
 
 
