@@ -45,7 +45,7 @@ In third place it shows that apparently a classic drama surrounding a wedding dr
 
 ![Average rating and revenue for each cluster](figures/posters/best_rev_final.png){:width="100%"}
 
-### Lowest grossing movies - The clusters that makes you poor
+### Lowest grossing movies - The studios worst nightmare 
 Here we find some og the more some of the softer plots. The storylines do not look as obvious as the best performing movies. Though we can still see the general idea from these posters. Interestingly we see a lot of women represented in the posters. The plots seem to revolve around families and and more wholesome plot-lines than the action and "explosive" themes we saw in the top grossing movies.
 
 ![Average rating and revenue for each cluster](figures/posters/worst_rev_final.png){:width="100%"}
