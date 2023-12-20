@@ -1,6 +1,6 @@
 ## Bag-of-words | Text Data Magic: From words to 26 cool clusters
 
-We decide to cluster the movies based on similarity score between words in the plot summaries. To prepare the plot summaries for analysis, we apply stemming, lemmatization, and stopword removal to our text data. Next, we use TF-IDF for text representation. For dimensionality reduction, we aim for 95% variance retention, leading to component reduction. We then employ K-means clustering, determining the optimal $k=30$ based on the silhouette score and performance reasons, resulting in 30 clusters. After filtering our clusters with a 100 samples or less, we end up with 26 clusters.
+We decide to cluster the movies based on similarity score between words in the plot summaries. To prepare the plot summaries for analysis, we apply stemming, lemmatization, and stopword removal to our text data. Next, we use TF-IDF for text representation. For dimensionality reduction, we aim for 95% variance retention, leading to component reduction. We then employ K-means clustering, determining the optimal k=30 based on the silhouette score and performance reasons, resulting in 30 clusters. After filtering our clusters with a 100 samples or less, we end up with 26 clusters.
 
 The clusters are formed by similarity between words in the movies' plot summaries. Therefore, each cluster contains a list of words ranked from most important to least important. A way to represent the cluster, and what words characterize them, is by the word clouds seen below. Each word in the word cloud is represented in the cluster, and the bigger the word, the more significant it is for that cluster. The plot below shows the word clouds for cluster five to eight.
 
@@ -52,8 +52,11 @@ Here we find some og the more some of the softer plots. The storylines do not lo
 
 
 ### Combined score - The golden standard 
+By normalizing the rating and the revenue we have made a combined score to determine the clusters that perform best overall. 
+
 ![Average rating and revenue for each cluster](figures/nlp/gold_plot.png){:width="100%"}
+From the graph we can see that the confidence interval seen to overlap alot. But following our performed ANOVA test we see that the clusters overall score are indeed significant!
 
 ![Average rating and revenue for each cluster](figures/posters/gold_final.png){:width="100%"}
-
+From this we get these tree films that we have already touched upon. There clusters does from our research make the complained best performanced with considering both thier rating and thier revenue. Not to bad huh?! 
 
