@@ -1,6 +1,3 @@
----
-layout: default
----
 ## How does the movie’s original language affect the revenue and rating?
 
 It comes as no surprise, that most movies are in English. But does that mean the movie will get a higher revenue or rating? We divide the the dataset into movie with English as the original language, and movies with non-english as the original language.
