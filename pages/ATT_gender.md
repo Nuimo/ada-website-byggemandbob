@@ -10,9 +10,9 @@ There is a trend over all years, that there are more male actors than female act
 
 With a p-value of 0.10 of the linear regression, there has been no significant change of female characters in the past century. But looking at the plot, there seems to be a trend from 1980 and forward. Let us look at that.
 
-<div style="text-align: center;">
-  ![Development of percentage of female actors over time](figures/gender/female_percentage_release_year_filtered.png){:width="65%"}
-</div>
+
+![Development of percentage of female actors over time](figures/gender/female_percentage_release_year_filtered.png){:width="65%"}
+
 
 With a p-value of 0.00 of the linear regression bt, there is has been a significant increase in female actors in the past century. But does gender even effect the box office revenue of the movie?
 
