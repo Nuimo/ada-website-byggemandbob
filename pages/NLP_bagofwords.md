@@ -15,7 +15,7 @@ Each cluster contains a number of movie, each with a given revenue and rating. T
 
 The average mean of each cluster for both rating revenue is plotted below with error bars indicating the 95% confidence interval.
 
-![Average rating and revenue for each cluster](figures/nlp/nlp_rev_rating_subplots.png){:width="90%"}
+![Average rating and revenue for each cluster](figures/nlp/nlp_rev_rating_subplots.png){:width="100%"}
 
 
 The plots reveal that the confidence intervals for several of the clusters do not overlap, indicating a statistically significant difference in both revenues and ratings among the clusters. In the plot above, the cluster have been arranged in increasing order of both rating and revenue. However, if we arrange the cluster only with increasing revenue, we see that the two attributes don't go hand in hand. Actually, one of the movies with highest revenue has the worst ratings (cluster 18).
