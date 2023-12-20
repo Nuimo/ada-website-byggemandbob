@@ -1,4 +1,4 @@
-## Runtime
+## Movie Runtimes: Impact on Ratings and Revenue 
 Let's start by taking a look at if movie runtime has any effect on the revenue or rating! 
 
 ![Movie Runtime and Log Balanced Movie Box Office Revenue](figures/runtime/movie_runtimeVSlogbalanced_movieboxofficerevenue.png){:width="80%"}
