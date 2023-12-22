@@ -6,7 +6,7 @@ The clusters are formed by similarity between words in the movies' plot summarie
 
 ![Example of word clouds for cluster 5, 6, 7 and 8](figures/nlp/word_cloud_example.png){:width="65%"}
 
-We see that the four cluster seen here have some clear tendencies as well. Looking at cluster 6 the most significant (biggest) words seem to fall in the same category: alien, ship, kill and earth.
+We see that the four cluster seen here have some clear tendencies as well. Looking at cluster 5 the most significant (biggest) words seem to fall in the same category: german, solider, attack & kill.
 
 ## Rating & revenue
 But let us circle back to our goal of this analysis: to create a movie with **highest possible revenue** and **best possible rating**. Let's see how these plot summaries can help us with that!
