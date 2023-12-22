@@ -1,6 +1,6 @@
 ## Bag-of-words | Text Data Magic: From words to 26 cool clusters
 
-We decide to cluster the movies based on similarity score between words in the plot summaries. To prepare the plot summaries for analysis, we apply stemming, lemmatization, and stopword removal to our text data. Next, we use TF-IDF for text representation. For dimensionality reduction, we aim for 95% variance retention, leading to component reduction. We then employ K-means clustering, determining the optimal k=30 based on the silhouette score and performance reasons, resulting in 30 clusters. After filtering out clusters with 100 samples or fewer, we end up with 26 clusters.
+We decide to cluster the movies based on similarity score between words in the plot summaries. To prepare the plot summaries for analysis, we apply stemming, lemmatization, and stopword removal to our text data. Next, we use TF-IDF for text representation. For dimensionality reduction, we aim for 95% variance retention, leading to component reduction. We then employ K-means clustering, determining the optimal k=30 based on the silhouette score and performance reasons, resulting in 30 clusters. After filtering out clusters with 100 samples or fewer, we end up with 19 clusters.
 
 The clusters are formed by similarity between words in the movies' plot summaries. Therefore, each cluster contains a list of words ranked from most important to least important. A way to represent the cluster, and what words characterize them, is by the word clouds seen below. Each word in the word cloud is represented in the cluster, and the bigger the word, the more significant it is for that cluster. The plot below shows the word clouds for cluster five to eight.
 
@@ -18,7 +18,7 @@ The average mean of each cluster for both rating and revenue is plotted below wi
 ![Average rating and revenue for each cluster](figures/nlp/nlp_rev_rating_subplots.png){:width="100%"}
 
 
-The plots reveal that the confidence intervals for several of the clusters do not overlap, indicating a statistically significant difference in both revenues and ratings among the clusters. In the plot above, the cluster have been arranged in increasing order of both rating and revenue. However, if we arrange the cluster only with increasing revenue, we see that the two attributes don't go hand in hand. Actually, one of the movie clusters with the highest revenue has the worst ratings (cluster 18).
+The plots reveal that the confidence intervals for several of the clusters do not overlap, indicating a statistically significant difference in both revenues and ratings among the clusters. In the plot above, the cluster have been arranged in increasing order of both rating and revenue. However, if we arrange the cluster only with increasing revenue, we see that the two attributes don't go hand in hand. Actually, one of the movie clusters with the highest revenue has the worst ratings (cluster 12).
 
 ![Average rating and revenue for each cluster](figures/nlp/nlp_rev_rating_both_plots.png){:width="80%"}
 
